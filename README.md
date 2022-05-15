@@ -11,7 +11,7 @@ server.sendMessage("Hello World")
 ```
 
 # How to use for Roblox game?
-First, copy all the files from the "lua" folder to ServerScriptService.
+First, copy all the files from the "lua" folder to ServerScriptService. (Do not run the server unless you want to use your own, which in that case, replace the URL "https://unisock.seven7four4.repl.co" with whatever port you set it on.)
 
 Then, accept HTTP requests on your game, and create a new script (NOT LOCAL) in Workspace, or wherever you want. 
 
