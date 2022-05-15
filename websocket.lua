@@ -1,4 +1,3 @@
-local setInterval = require(script.Parent.Intervals)
 local Base64 = require(script.Parent.Base64)
 local atob = Base64.atob
 local btoa = Base64.btoa
