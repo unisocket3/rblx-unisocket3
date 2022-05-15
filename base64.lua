@@ -12,7 +12,6 @@ function to_base64(data)
 	end)..({ '', '==', '=' })[#data%3+1])
 end
 
--- this function converts base64 to string
 function from_base64(data)
 	local b = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 	data = string.gsub(data, '[^'..b..'=]', '')
